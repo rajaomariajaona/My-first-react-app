@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import TitleText from './TitleText';
+import data from './DataText'
 const propTypes = {};
 
 const defaultProps = {};
@@ -9,6 +11,9 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
     }
+    state ={
+data : data.header
+    }
 
     render() {
         return (
@@ -16,12 +21,9 @@ class Header extends React.Component {
                 <Navbar />
                 <div className="row">
                     <div className="col-xs-12 col-md-6">
-                        <h1> All your files in one secure location, accessible anywhere. </h1>
-                        <p>
-Fylo stores your most important files in one secure location. Access them whever you need, share and collaborate with friends, family, and co-workers.
-                        </p>
+<TitleText title={this.state.data.title} text={this.state.data.text} />
                         <input name="email" type="text" placeholder="Enter your email..."/>
-                        <button type="submit" className="btn"></button>
+                        <button type="submit" className="btn"> Get Started </button>
                     </div>
                     <div className="col-xs-12 col-md-6">
                         <img alt="illustration" className="img-responsive"  src="./images/illustration-1.svg"/>

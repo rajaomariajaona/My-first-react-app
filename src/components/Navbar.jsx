@@ -5,12 +5,12 @@ class Navbar extends React.Component{
     }
     render(){
         return(
-            <div className="row">
+            <div className="row navbar middle-xs between-xs">
                 <div className='col-xs-3'>
                     <img src='./images/logo.svg' />
                 </div>
                 <div className="col-xs-7 col-md-5">
-                    <ul>
+                    <ul id="header" >
                         <li> Features </li>
                         <li> Team </li>
                         <li> Sign In </li>

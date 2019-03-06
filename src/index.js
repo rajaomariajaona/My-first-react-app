@@ -5,6 +5,7 @@ import Body from './components/Body';
 import Footer from './components/Footer';
 import './css/all.css'
 import './css/flexboxgrid.min.css'
+import './css/style.css'
 
 class App extends React.Component{
     constructor(props){

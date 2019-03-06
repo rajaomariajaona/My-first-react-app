@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import FooterTop from './FooterTop';
+import FooterBottom from './FooterBottom';
 const propTypes = {};
 
 const defaultProps = {};
@@ -12,7 +13,10 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <div> </div>
+            <div className="col-xs-11 col-md-10">
+                <FooterTop />
+                <FooterBottom />
+            </div>
         );
     }
 };

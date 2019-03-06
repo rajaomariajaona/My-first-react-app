@@ -1,0 +1,54 @@
+@font-face{
+    font-family: Raleway ;
+    src: url(../fonts/raleway/Raleway-Bold.ttf) ;
+}
+@font-face{
+    font-family: OpenSans;
+    src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+
+*{
+    color:hsl(243, 87%, 12%) ;
+}
+h1{
+    font-family: Raleway ;
+}
+body{
+    font-family: OpenSans ;
+}
+.btn{
+    font-family: Raleway;
+}
+ul{
+    list-style-type:none;
+}
+#header li{
+    display:inline-block;
+    margin: 7px;
+}
+#header{
+    text-align: right ;
+}
+.navbar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input{
+    height: 300px;
+}
+.title-text{
+    text-align: center ;
+}
+@media only screen and (min-width: 765px){
+    .title-text{
+        text-align: left ;
+    }
+}
+/* { */
+/*     hsl(238, 22%, 44%) */
+/*     hsl(224, 93%, 58%) */
+/*     hsl(170, 45%, 43%) */
+/*     hsl(240, 75%, 98%) */
+/*     hsl(0, 0%, 75%) */
+
+/* } */
