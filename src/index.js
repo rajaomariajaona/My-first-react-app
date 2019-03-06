@@ -11,7 +11,7 @@ class App extends React.Component{
 super(props);
     }
     render(){
-        return(<div>
+        return(<div className="row center-xs">
             <Header />
             <Body />
             <Footer />
