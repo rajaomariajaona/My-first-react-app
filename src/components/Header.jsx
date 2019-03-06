@@ -19,12 +19,16 @@ data : data.header
         return (
             <div className="col-xs-11 col-md-10" >
                 <Navbar />
-                <div className="row">
-                    <div className="col-xs-12 col-md-6">
+                <div className="row header">
+                    <div className=" title-text-header first-md last-xs col-xs-12 col-md-6">
 <TitleText title={this.state.data.title} text={this.state.data.text} />
-                        <input name="email" type="text" placeholder="Enter your email..."/>
-                        <button type="submit" className="btn"> Get Started </button>
-                    </div>
+<div className="row form-group start-md center-xs">
+    <div className="col-xs-10 col-md-7">
+        <input name="email" type="email" placeholder="Enter your email..."/>
+    </div>
+        <div className="col-xs-10 col-md-5">
+           <button type="submit" className="btn"> Get Started </button>
+                    </div></div></div>
                     <div className="col-xs-12 col-md-6">
                         <img alt="illustration" className="img-responsive"  src="./images/illustration-1.svg"/>
                     </div>

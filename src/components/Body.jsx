@@ -15,7 +15,7 @@ data: data.body
     }
     render() {
         return (
-            <div className="col-xs-11 col-md-10">
+            <div className="body col-xs-11 col-md-10">
                 <div className="row">
                     
                     <div className="col-xs-12 col-md-6">
